@@ -343,9 +343,7 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
 
 div#recent-posts.recent-posts{
-    margin-top: 0rem;
     display: grid;
-    grid-template-columns: repeat(1, 100%);
-    grid-row: 7 / span 2;
+    grid-template-columns: repeat(auto-fill, 100%);
 }
 }
