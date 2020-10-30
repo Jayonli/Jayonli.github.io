@@ -343,8 +343,10 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
 
 div#recent-posts.recent-posts{
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
+    display: flex;
+    -webkit-flex-direction: column; /*容器内部纵向排列*/
+    -ms-flex-direction: column; /*容器内部纵向排列*/
+    flex-direction: column; /*容器内部纵向排列*/
     width: 100%;
 }
 }
