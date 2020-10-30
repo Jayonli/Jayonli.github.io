@@ -350,7 +350,7 @@ display:none;/*隐藏文章详情*/
  
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-	margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
+	margin-bottom: 0rem;/*控制标题meta信息的底部间距*/
 }
 @media screen and (max-width: 768px) {
 #recent-posts > .recent-post-item {
