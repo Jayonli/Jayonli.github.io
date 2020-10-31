@@ -349,6 +349,10 @@ img.post_bg.loaded{
         width: 100%;
     }
 
+#recent-posts > .recent-post-item .post_cover img.post_bg{
+    height: 300px;
+}
+
     span.article-meta{
         display: none;
     }
