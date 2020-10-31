@@ -342,13 +342,12 @@ img.post_bg.loaded{
 }
 @media screen and (max-width: 768px){
 
-div#recent-posts.recent-posts{
-    display: grid;
-    grid-auto-columns: repeat(auto-fit,minmax(768px,1fr));
-    grid-gap: 10px;
-    width: 100%;
-}
-#recent-posts > .recent-post-item .post_cover {
-    width: 50%; /*图片封面宽度*/
-}
+    div#recent-posts.recent-posts{
+        display: grid;
+        grid-template-columns: 1 auto;
+        grid-gap: 10px;
+        width: 100%;
+    }
+
+
 }
