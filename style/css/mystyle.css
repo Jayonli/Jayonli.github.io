@@ -348,8 +348,7 @@ img.post_bg.loaded{
         flex-direction: column;
         flex-wrap: wrap; */
     display: inline-grid;
-    grid-template-columns: var(--card-bg);
-        height: 340px;
+    grid-template-columns: 50% 50%;
         width: 100%;
     }
 
