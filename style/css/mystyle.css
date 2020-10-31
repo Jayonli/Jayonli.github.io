@@ -343,13 +343,12 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
 
     div#recent-posts.recent-posts{
-        display: grid;
-        grid-template-columns: 268px;
+        display: inline-grid;
         grid-gap: 10px;
         width: 100%;
     }
 
-    span.articlemeta{
+    span.article.meta{
         display: none;
     }
 
