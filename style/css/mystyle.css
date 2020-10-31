@@ -340,7 +340,7 @@ img.post_bg.loaded{
 #pagination{
     grid-column: 1 / 3;
 }
-@media screen and (max-width: 768px){
+@media screen {
 
     div#recent-posts.recent-posts{
         display: grid;
