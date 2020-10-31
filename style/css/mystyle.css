@@ -342,17 +342,12 @@ img.post_bg.loaded{
 }
 @media screen and (max-width: 768px){
 
-    div#recent-posts.recent-posts.parent{
-
-
+    div#recent-posts.recent-posts{
+        display: inline-grid;
+        grid-gap: 10px;
+        width: 100%;
+        height: 200px;
     }
-
-    #recent-posts > .recent-post-item {
-                display: inline-flex;
-        flex-direction: column ;
-        flex-wrap: wrap;
-        width:100%;/*控制手机自适应*/
-}
 
     span.article-meta{
         display: none;
