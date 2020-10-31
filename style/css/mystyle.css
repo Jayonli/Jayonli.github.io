@@ -350,12 +350,6 @@ img.post_bg.loaded{
         width: 100%;
     }
 
-    #recent-posts > .recent-post-item {
-        width:100%;/*控制手机自适应*/  
-    }
-    #recent-posts > .recent-post-item .post_cover {
-        width: 100%; /*图片封面宽度*/
-    }
 
     .recent-post-info {
         padding: 0 40px;/*容器内部文字左右间距*/
