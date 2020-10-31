@@ -346,8 +346,8 @@ img.post_bg.loaded{
         display: grid;
         grid-template-columns: 100% ;
         grid-gap: 10px;
-        width: 100%;
         height: 20%;
+        color: #ec29f3;
     }
 
     span.article-meta{
