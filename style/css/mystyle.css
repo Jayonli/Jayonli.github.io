@@ -347,7 +347,8 @@ img.post_bg.loaded{
         /* display: flex;
         flex-direction: column;
         flex-wrap: wrap; */
-        display: grid;
+    display: inline-grid;
+
         height: 340px;
         width: 100%;
     }
