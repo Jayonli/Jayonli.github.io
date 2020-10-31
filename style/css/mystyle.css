@@ -354,7 +354,6 @@ img.post_bg.loaded{
     .recent-post-info {
         padding: 0 40px;/*容器内部文字左右间距*/
         margin-top: 1em;/*容器内部文字上间距*/
-        width: 100%!important;/*容器宽度*/
     }
 #recent-posts > .recent-post-item > .recent-post-info > .article-title {
     -webkit-line-clamp: 1;/*控制标题的行数*/
