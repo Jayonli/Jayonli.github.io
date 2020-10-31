@@ -342,10 +342,10 @@ img.post_bg.loaded{
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+        grid-template-columns: repeat(auto-fit,auto-fit);
         grid-gap: 10px;
         width: 100%;
     }
