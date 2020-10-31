@@ -348,9 +348,15 @@ img.post_bg.loaded{
         width: 100%;
     }
 
-    span.article.meta{
+    span.article-meta{
+        display: none;
+    }
+    a.article-meta_tags{
         display: none;
     }
 
+    span.article-meta_link{
+        display: none;
+    }
 
 }
