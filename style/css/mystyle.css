@@ -345,10 +345,16 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
         display: grid;
-        grid-template-columns: repeat(auto-fit,auto-fit);
+        grid-template-columns: auto;
         grid-gap: 10px;
         width: 100%;
     }
+
+    #recent-posts > .recent-post-item {
+        width:100%;/*控制手机自适应*/  
+    }
+
+
     span.article-meta{
         display: none;
     }
