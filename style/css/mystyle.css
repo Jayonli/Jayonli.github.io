@@ -344,7 +344,7 @@ img.post_bg.loaded{
 
     div#recent-posts.recent-posts.parent{
         display: inline-flex;
-        flex-direction: row ;
+        flex-direction: column ;
         width: 100%;
     }
 
