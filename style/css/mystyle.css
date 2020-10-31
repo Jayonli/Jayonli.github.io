@@ -344,7 +344,7 @@ img.post_bg.loaded{
 
     div#recent-posts.recent-posts{
         display: grid;
-        grid-template-columns: 1 auto;
+        grid-template-columns: 268px;
         grid-gap: 10px;
         width: 100%;
     }
