@@ -344,7 +344,11 @@ img.post_bg.loaded{
 
 @media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
-        display: grid;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: repeat(7,285px);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
         grid-gap: 10px;
         width: 100%;
     }
