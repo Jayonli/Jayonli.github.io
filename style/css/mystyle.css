@@ -349,5 +349,9 @@ img.post_bg.loaded{
         width: 100%;
     }
 
+    span.articlemeta{
+        display: none;
+    }
+
 
 }
