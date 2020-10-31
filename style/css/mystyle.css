@@ -344,13 +344,12 @@ img.post_bg.loaded{
 
     div#recent-posts.recent-posts{
         display: grid;
-        grid-auto-columns: repeat(1,100%);
         grid-gap: 10px;
         width: 100%;
     }
 
 #recent-posts > .recent-post-item .post_cover img.post_bg{
-    height: 300px;
+    height: 200px;
 }
 
     span.article-meta{
