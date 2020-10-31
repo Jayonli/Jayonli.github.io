@@ -344,8 +344,11 @@ img.post_bg.loaded{
 /* shouji */
 @media screen and (max-width: 868px){
     div#recent-posts.recent-posts{
-        display: flex;
+        /* display: flex;
         flex-direction: column;
+        flex-wrap: wrap; */
+        display: grid;
+        height: 340px;
         width: 100%;
     }
 
