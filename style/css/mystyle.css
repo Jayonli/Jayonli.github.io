@@ -342,7 +342,7 @@ img.post_bg.loaded{
 }
 
 /* shouji */
-@media screen and (max-width: 868px){
+@media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
         /* display: flex;
         flex-direction: column;
