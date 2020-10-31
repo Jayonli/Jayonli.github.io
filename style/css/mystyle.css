@@ -344,7 +344,7 @@ img.post_bg.loaded{
 
 @media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
-        display: grid;
+        display: inline-grid;
         grid-template-columns: auto;
         grid-gap: 10px;
         width: 100%;
