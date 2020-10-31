@@ -345,13 +345,13 @@ img.post_bg.loaded{
     div#recent-posts.recent-posts{
         display: inline-grid;
         grid-gap: 10px;
-        width: 100%;
+        height: 350px;
     }
 
     #recent-posts > .recent-post-item .post_cover img.post_bg{
         height: 100px;
     }
-    
+
     span.article-meta{
         display: none;
     }
