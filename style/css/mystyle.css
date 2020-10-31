@@ -341,13 +341,17 @@ img.post_bg.loaded{
     grid-column: 1 / 3;
 }
 
-/* s手机适配 */
+/* shouji */
 @media screen and (max-width: 768px){
     div#recent-posts.recent-posts{
         display: inline-grid;
         grid-template-columns: 100%;
         grid-gap: 10px;
         width: 100%;
+    }
+
+    #recent-posts > .recent-post-item {
+        width:100%;/*控制手机自适应*/  
     }
 
 
