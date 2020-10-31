@@ -343,15 +343,16 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
 
     div#recent-posts.recent-posts.parent{
-        display: inline-flex;
+
+
+    }
+
+    #recent-posts > .recent-post-item {
+                display: inline-flex;
         flex-direction: column ;
         flex-wrap: wrap;
-
-        width: 100%;
-        height: auto;
-        margin-bottom: 0%;
-        ma
-    }
+        width:100%;/*控制手机自适应*/
+}
 
     span.article-meta{
         display: none;
