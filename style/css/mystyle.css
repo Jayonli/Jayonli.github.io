@@ -343,8 +343,8 @@ img.post_bg.loaded{
 @media screen and (max-width: 768px){
 
     div#recent-posts.recent-posts{
-        display: grid;
-        grid-template-columns: repeat(1,100%);
+        display: inline-grid;
+        grid-template-columns: 100% ;
         grid-gap: 10px;
         width: 100%;
         height: 20%;
