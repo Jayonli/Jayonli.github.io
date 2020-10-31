@@ -345,7 +345,12 @@ img.post_bg.loaded{
     div#recent-posts.recent-posts.parent{
         display: inline-flex;
         flex-direction: column ;
+        flex-wrap: wrap;
+
         width: 100%;
+        height: auto;
+        margin-bottom: 0%;
+        ma
     }
 
     span.article-meta{
