@@ -346,6 +346,7 @@ img.post_bg.loaded{
         display: inline-grid;
         grid-gap: 10px;
         width: 100%;
+        height: 60%;
     }
 
     span.article-meta{
