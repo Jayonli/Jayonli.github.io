@@ -342,25 +342,11 @@ img.post_bg.loaded{
 }
 @media screen and (max-width: 768px){
 
-    div#recent-posts.recent-posts{
-        display: inline-grid;
-        grid-gap: 10px;
-        height: 350px;
-    }
-
-    #recent-posts > .recent-post-item .post_cover img.post_bg{
-        height: 100px;
-    }
-
-    span.article-meta{
-        display: none;
-    }
-    a.article-meta_tags{
-        display: none;
-    }
-
-    span.article-meta_link{
-        display: none;
-    }
+div#recent-posts.recent-posts{
+    display: grid;
+    grid-auto-columns: repeat(auto-fit,minmax(768px,1fr));
+    grid-gap: 10px;
+    width: 100%;
+}
 
 }
