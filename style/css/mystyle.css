@@ -348,4 +348,7 @@ div#recent-posts.recent-posts{
     grid-gap: 10px;
     width: 100%;
 }
+#recent-posts > .recent-post-item .post_cover {
+    width: 50%; /*图片封面宽度*/
+}
 }
