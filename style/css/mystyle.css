@@ -344,9 +344,8 @@ img.post_bg.loaded{
 /* shouji */
 @media screen and (max-width: 868px){
     div#recent-posts.recent-posts{
-        display: inline-grid;
-        grid-template-columns: 100%;
-        grid-gap: 10px;
+        display: inline-flex;
+
         width: 100%;
     }
 
