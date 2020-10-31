@@ -350,14 +350,6 @@ img.post_bg.loaded{
         width: 100%;
     }
 
-    #recent-posts > .recent-post-item {
-        width:100%;/*控制手机自适应*/  
-    }
-
-#recent-posts > .recent-post-item .post_cover {
-    width: 100%; /*图片封面宽度*/
-}
-
     span.article-meta{
         display: none;
     }
