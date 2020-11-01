@@ -40,6 +40,13 @@ header#page-header.full_page {
 
 /* end============================================================= */
 
+#nav #blog_name{
+    font-size: x-large;
+}
+#nav:not(.fixed) #menus{
+    font-size: large;
+}
+
 /* 滚动条优化 ===============================================================*/
 ::-webkit-scrollbar {
     width: 4px;
