@@ -6,24 +6,18 @@ const catalogMagnet = new Vue({
 		postnum:[],
 		//这里是磁贴背景图片
 		img:[
-			"/images/b1.JPG",
-			"/images/b2.JPG",
-			"/images/b3.JPG",
-			"/images/b4.JPG",
-			"/images/b5.JPG",
-			"/images/b6.JPG",
-			"/images/b7.JPG",
-			"/images/b8.JPG",
+			"/style/img/01.JPG",
+			"/style/img/02.JPG",
+			"/style/img/03.JPG",
+			"/style/img/04.JPG",
+			"/style/img/01.JPG",
 		],
 		//这里是磁贴描述信息
 		describe:[
-			"日本早安新闻",
-			"vue学习记录",
-			"我的各种作品",
 			"我的学习整理",
 			"我的各种教程",
-			"我的游戏评测",
 			"生活点点滴滴",
+			"一切胡思乱想",
 			"一切胡思乱想",
 		],
 		//这里是磁贴的文字颜色

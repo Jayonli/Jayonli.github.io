@@ -11,7 +11,8 @@
 	display: -webkit-flex;
 	justify-content: center;
 	align-items:center;
-	flex-wrap:wrap;
+    flex-wrap:wrap;
+    background-color: #fdfdfdd6;
 }
 
 .calendar-graph text.wday,

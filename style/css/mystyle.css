@@ -1,6 +1,6 @@
 /*  添加图标颜色 ===========================================*/
 /* 哔哩哔哩 */
-i.iconfont.icon-CN_bilibili::before {
+i.iconfont.icon-CN_bilibili {
     color: #FB7299;
 }
 
@@ -85,56 +85,6 @@ header#page-header.full_page {
 
 /* end=================================================== */
 
-/*鼠标样式==================================================*/
-body,
-html {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/Arrow.cur),
-        auto !important;
-}
-
-a,
-img {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*a标签*/
-a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*按钮*/
-button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*i标签*/
-i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*页脚a标签*/
-#footer-wrap a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*分页器*/
-#pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*头部的导航栏*/
-#nav .site-page:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-        auto !important;
-}
-
-/*鼠标样式END=======================================================*/
 
 /*kbd====================================================*/
 kbd {
@@ -297,77 +247,3 @@ div#post:hover {
 }
 /*========================================================== */
 
-
-#recent-posts{
-	margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/
-	/*height: 0px; */  /*首页文章数不足20篇时开启该属性，超过20篇或者布局错位时注释掉该属性*/
-	display: flex;
-    flex-wrap: wrap; /*规定灵活的项目在必要的时候拆行或拆列。*/
-    justify-content: space-between; /*。*/
-}
-#recent-posts > .recent-post-item {
-  /*max-height:324px;*/  /*文章容器最大高度*/
-  margin-top: 1rem; /*最小间距*/
-  display: inline-block;
-  height:auto; /*高度自动*/
-  width:49%;/*文章容器容器宽度*/
-}
-#recent-posts > .recent-post-item .post_cover {
-  width: 100%; /*图片封面宽度*/
-    height: 200px;/*图片封面高度*/
-}
-#recent-posts > .recent-post-item .post_cover img.post_bg {
-  width: 100%;/*图片宽度*/
-  height: 100%;/*图片高度*/
-}
-
-
-#recent-posts > .recent-post-item >.recent-post-info > .content {
-    display:none;
-}
-
-#recent-posts > .recent-post-item {
-
-    -webkit-flex-direction: column; /*容器内部纵向排列*/
-    -ms-flex-direction: column; /*容器内部纵向排列*/
-    flex-direction: column; /*容器内部纵向排列*/
-
-}
-#recent-posts > .recent-post-item .left_radius {
-    border-radius: 8px 8px 0 0;/*圆角修改*/
-}
-#recent-posts > .recent-post-item .right_radius {
-    border-radius: 8px 8px 0 0;/*圆角修改*/
-}
-.recent-post-item{
-	height:auto !important;/*容器高度自动*/
-}
-
-.recent-post-info {
-  
-  padding: 0 40px;/*容器内部文字左右间距*/
-  margin-top: 1em;/*容器内部文字上间距*/
-  width: 100%!important;/*容器宽度*/
-}
-#recent-posts > .recent-post-item > .recent-post-info > .article-title {
-    -webkit-line-clamp: 1;/*控制标题的行数*/
-    margin-top: 0.3rem; /*控制标题的上间距*/
-	margin-bottom: 0.3rem;/*控制标题的下间距*/
-    color: var(--text-highlight-color);
-    font-size: 1.2em; /*控制标题的字体大小*/
-    line-height: 1.4;/*控制标题的行高*/
- 
-}
-#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-	margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
-}
-@media screen and (max-width: 768px) {
-#recent-posts > .recent-post-item {
- width:100%;/*控制手机自适应*/
-}
-}
-
-/* 隐藏某个分类 */
-figure.gallery-group.color-card:nth-child(1){
-    display: none;
-}
