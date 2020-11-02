@@ -163,7 +163,9 @@
 .icon-social_tm_:before {
   content: "\e620";
 }
-
+.icon-CN_bilibili::before{
+  content: "\e64f";
+}
 .icon-social1:before {
   content: "\ec76";
 }

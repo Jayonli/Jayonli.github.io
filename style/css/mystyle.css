@@ -1,7 +1,7 @@
 /*  添加图标颜色 ===========================================*/
 /* 哔哩哔哩 */
-i.iconfont.icon-bilibili {
-    color: red;
+i.iconfont.icon-CN_bilibili::before {
+    color: #FB7299;
 }
 
 /* 归档 */
@@ -12,6 +12,9 @@ i.fas.fa-archive {
 /* rss订阅 */
 i.iconfont.icon-RSS {
     color: orange;
+}
+i.fas.fa-weixin{
+    color: rgb(75, 235, 75);
 }
 
 /* 邮件信封 */
@@ -320,13 +323,14 @@ div#post:hover {
 
 
 #recent-posts > .recent-post-item >.recent-post-info > .content {
-display:none;/*隐藏文章详情*/
+    display:none;
 }
+
 #recent-posts > .recent-post-item {
 
-  -webkit-flex-direction: column; /*容器内部纵向排列*/
-  -ms-flex-direction: column; /*容器内部纵向排列*/
-  flex-direction: column; /*容器内部纵向排列*/
+    -webkit-flex-direction: column; /*容器内部纵向排列*/
+    -ms-flex-direction: column; /*容器内部纵向排列*/
+    flex-direction: column; /*容器内部纵向排列*/
 
 }
 #recent-posts > .recent-post-item .left_radius {
