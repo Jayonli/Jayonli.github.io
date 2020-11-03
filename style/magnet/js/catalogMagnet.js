@@ -1,16 +1,16 @@
 const catalogMagnet = new Vue({
 	el:'#catalogMagnet',
 	data:{
-		message:'你好！欢迎访问我的主页zfe.space!',
+		message:'你好！欢迎访问我的主页surpsec.cn!',
 		link: [],
 		postnum:[],
 		//这里是磁贴背景图片
 		img:[
 			"/style/img/01.JPG",
 			"https://kyun.ltyuanfang.cn/tc/2020/10/20/47949a67082c5.jpg",
-			"../style/img/03.JPG",
-			"./style/img/04.JPG",
-			"/img/01.JPG",
+			"/style/img/03.jpg",
+			"/style/img/04.JPG",
+			"/style/img/01.JPG",
 		],
 		//这里是磁贴描述信息
 		describe:[
