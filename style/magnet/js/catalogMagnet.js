@@ -10,7 +10,7 @@ const catalogMagnet = new Vue({
 			"https://kyun.ltyuanfang.cn/tc/2020/10/20/47949a67082c5.jpg",
 			"../style/img/03.JPG",
 			"./style/img/04.JPG",
-			"/source/style/img/01.JPG",
+			"//source/style/img/01.JPG",
 		],
 		//这里是磁贴描述信息
 		describe:[
