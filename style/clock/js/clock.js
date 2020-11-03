@@ -26,11 +26,11 @@
       //请求成功后要执行的函数，传入数据
       success: function(data){
 		updateTime();
-        clock.weatherimg = '/clock/images/weather/' +  data.data.current.weather.ic + '.png';
+        clock.weatherimg = '/style/clock/images/weather/' +  data.data.current.weather.ic + '.png';
         clock.temperature = data.data.current.weather.tp;
         clock.humidity = data.data.current.weather.hu;
         clock.usaqi = data.data.current.pollution.aqius;
-        clock.humidityimg = '/clock/images/weather/hu.png';
+        clock.humidityimg = '/style/clock/images/weather/hu.png';
         clock.city = data.data.city;
 		clock.clockshow  = true;
 		

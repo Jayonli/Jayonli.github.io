@@ -7,7 +7,7 @@ const catalogMagnet = new Vue({
 		//这里是磁贴背景图片
 		img:[
 			"/style/img/01.JPG",
-			"/style/img/02.JPG",
+			"https://kyun.ltyuanfang.cn/tc/2020/10/20/47949a67082c5.jpg",
 			"/style/img/03.JPG",
 			"/style/img/04.JPG",
 			"/style/img/01.JPG",
