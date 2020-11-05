@@ -139,7 +139,16 @@ a.extend.net {
 img[src*='#img-radius'] {
     border-radius: 9px;
 }
-
+/* 自定义图片样式 */
+img{
+    border-radius: 9px;
+}
+img:hover{
+    box-shadow: 0 0px 10px 5px #22ec2c;
+}
+#article-container figure.highlight:hover{
+    box-shadow: 0 0px 10px 5px #deec22;
+}
 /* end==================================================== */
 
 /* 去掉全局顶部图片 */

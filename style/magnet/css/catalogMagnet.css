@@ -11,5 +11,10 @@
 }
 .category-list-item {list-style-type:none;}
 
+/* 隐藏某个分类 */
+figure.gallery-group.color-card:nth-child(1) {
+  display: none;
+}
+
 
 
