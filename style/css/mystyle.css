@@ -1,4 +1,41 @@
 
+/*  添加图标颜色 ===========================================*/
+/* 哔哩哔哩 */
+i.iconfont.icon-CN_bilibili {
+    color: #FB7299;
+}
+
+/* 归档 */
+i.fas.fa-archive {
+    color: mediumslateblue;
+}
+
+/* rss订阅 */
+i.iconfont.icon-RSS {
+    color: orange;
+}
+i.fas.fa-weixin{
+    color: rgb(75, 235, 75);
+}
+
+/* 邮件信封 */
+i.fas.fa-envelope {
+    color: darkorange;
+}
+
+/* aside icons color settings */
+/* 历史 */
+i.fas.fa-history {
+    color: mediumturquoise;
+}
+
+/* 网站数据 */
+i.fas.fa-chart-line {
+    color: blue;
+}
+
+/* 图标颜色结束  end===================================================== */
+
 /*  设置banner底部阴影===============================================*/
 header#page-header.full_page {
     box-shadow: 0 -80px 10px -2px #ffffff83 inset;
@@ -102,9 +139,14 @@ a.extend.net {
 img[src*='#img-radius'] {
     border-radius: 9px;
 }
-
-/* 自定义图片样式 */
-
+/* 给图片加圆角 */
+img{
+    border-radius: 9px;
+}
+/* 悬浮鼠标显示颜色边框 */
+img:hover{
+    box-shadow: 0 0px 10px 5px #22ec2c;
+}
 #article-container figure.highlight:hover{
     box-shadow: 0 0px 10px 5px #deec22;
 }
@@ -118,6 +160,7 @@ img[src*='#img-radius'] {
 /* 侧边栏 */
 #aside_content .card-widget:hover {
     -webkit-box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3);
+    /* box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3); */
     box-shadow: 0 0px 10px 5px #06d8fdc7 inset, 0 0px 10px 5px #06d8fdc7;
     background-color: #fffefec4;
 }
