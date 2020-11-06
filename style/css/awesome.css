@@ -1,0 +1,32 @@
+/*  添加图标颜色 ===========================================*/
+
+/* 归档 */
+i.fas.fa-archive {
+    color: mediumslateblue;
+}
+
+/* rss订阅 */
+i.iconfont.icon-RSS {
+    color: orange;
+}
+i.fas.fa-weixin{
+    color: rgb(75, 235, 75);
+}
+
+/* 邮件信封 */
+i.fas.fa-envelope {
+    color: darkorange;
+}
+
+/* aside icons color settings */
+/* 历史 */
+i.fas.fa-history {
+    color: mediumturquoise;
+}
+
+/* 网站数据 */
+i.fas.fa-chart-line {
+    color: blue;
+}
+
+/* 图标颜色结束  end===================================================== */
