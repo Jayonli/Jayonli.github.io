@@ -1343,11 +1343,11 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(30deg, rgb(8 223 239 / 15%) 5%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
-  background: -moz-linear-gradient(30deg, rgb(8 223 239 / 15%) 5%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
-  background: -o-linear-gradient(30deg, rgb(8 223 239 / 15%) 5%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
-  background: -ms-linear-gradient(30deg, rgb(8 223 239 / 15%) 5%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
-  background: linear-gradient(60deg, rgb(8 223 239 / 15%) 5%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
+  background: -webkit-linear-gradient(30deg, rgb(8 223 239 / 15%) 15%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
+  background: -moz-linear-gradient(30deg, rgb(8 223 239 / 15%) 15%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
+  background: -o-linear-gradient(30deg, rgb(8 223 239 / 15%) 15%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
+  background: -ms-linear-gradient(30deg, rgb(8 223 239 / 15%) 15%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
+  background: linear-gradient(60deg, rgb(8 223 239 / 15%) 15%, rgb(170 224 228 / 30%)),url(https://ftp.bmp.ovh/imgs/2020/10/31b405a6432bdab6.jpg);;
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -2130,16 +2130,6 @@ blockquote footer cite:before {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 900px) {
-  .layout > div:first-child {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -o-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
-}
 .layout.hide-aside {
   max-width: 1000px;
 }
@@ -2603,7 +2593,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside_content {
-    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 900px) {
