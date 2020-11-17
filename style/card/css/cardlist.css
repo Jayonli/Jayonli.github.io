@@ -91,5 +91,8 @@
 #recent-posts > .recent-post-item {
     width:100%;/*控制手机自适应*/
 }
+#recent-posts{
+    height: auto;
+}
 }
 
