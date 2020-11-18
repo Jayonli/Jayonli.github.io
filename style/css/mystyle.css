@@ -238,3 +238,10 @@ div#post:hover {
 }
 /*========================================================== */
 
+
+/* 友链页面 */
+.flink#article-container .flink-list > .flink-list-item:before{
+    background: #13d64678;
+}
+
+
